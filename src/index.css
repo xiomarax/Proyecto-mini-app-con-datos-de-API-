@@ -1,0 +1,12 @@
+html {
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card {
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
